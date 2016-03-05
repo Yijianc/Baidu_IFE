@@ -1,0 +1,47 @@
+/*header {
+  background-image: url(../img/tweed.png);
+  background-repeat: repeat;
+}*/
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+  list-style:none;
+  margin;10px;
+  padding:0;
+  /*text-align: left;*/
+}
+
+.aqi-chart-tooltip li{
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.aqi-chart-tooltip li:hover{
+  background: orange;
+}
+
+.aqi-chart span {
+  display: inline-block;
+  height: 20px;
+}
+
+.aqi-bad {
+  background: black;
+}
+.aqi-common {
+  background: red;
+}
+.aqi-light {
+  background: blue;
+}
+.aqi-good {
+  background: #00FF00;
+}
